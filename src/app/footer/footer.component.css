@@ -1,0 +1,31 @@
+/* Contenedor de redes sociales en el footer */
+.contenedor-socialMedia {
+    display: flex;
+    justify-content: center;
+    background-color: var(--green); /* Fondo verde claro */
+}
+
+/* Íconos o enlaces de redes sociales */
+.social-media-links {
+    width: 20%;
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* 4 columnas */
+    justify-content: center;
+    align-items: center;
+}
+
+/* Leyenda o texto final del footer */
+.legend-footer {
+    background-color: var(--darkGr); /* Verde oscuro */
+    color: var(--white);
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Responsive: móviles */
+@media (max-width: 768px) {
+    .contenedor-socialMedia .link {
+        margin: 5px;
+    }
+}
